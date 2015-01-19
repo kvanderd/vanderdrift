@@ -12,7 +12,8 @@ body {
   line-height: 1.6;
 }
 body.fullscreen-image-background {
-  background-image: url('/assets/sf.jpg');
+ 
+ background: asset_url('sf.jpg') no-repeat center center;  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
